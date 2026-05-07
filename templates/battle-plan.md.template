@@ -1,0 +1,197 @@
+# 面试备战作战手册
+## {{company_name}} · {{job_title}}
+
+> 生成时间：{{date}}
+> 候选人：{{candidate_name}}（可匿名）
+> 关联经历档案：{{experience_ids}}
+
+---
+
+# 第一章：岗位概览
+
+## 这个岗位在做什么
+
+{{job_overview}}
+（1-2 段：这个岗位在公司里的位置、核心职责、成功标准）
+
+## 核心挑战
+
+- {{challenge_1}}
+- {{challenge_2}}
+- {{challenge_3}}
+
+## 公司类型与面试风格预判
+
+**公司类型**：{{company_type}}
+
+**面试风格预判**：
+{{interview_style_prediction}}
+
+---
+
+# 第二章：JD 拆解摘要
+
+> 完整拆解见配套的 `jd-summary.md`，此处列核心要求。
+
+## 必须项
+
+| ID | 维度 | 要求 |
+|----|------|------|
+| HS-01 | 硬技能 | {{requirement}} |
+| SS-01 | 软技能 | {{requirement}} |
+| BA-01 | 业务理解 | {{requirement}} |
+
+## 加分项
+
+| ID | 要求 |
+|----|------|
+| PL-01 | {{requirement}} |
+
+## 隐含要求
+
+- {{implicit_requirement_1}}
+- {{implicit_requirement_2}}
+
+---
+
+# 第三章：匹配度诊断
+
+> 四档标准：🟢直接命中 / 🟡需重新包装 / 🟠部分覆盖 / 🔴真gap
+
+| JD 要求 | 诊断 | 关联经历 | 处理建议 |
+|---------|------|---------|---------|
+| {{requirement}} | 🟢 | {{experience_id}} | 准备 1 个具体故事，可直接讲 |
+| {{requirement}} | 🟡 | {{experience_id}} | 重新表达：把"参与"改成"独立负责" |
+| {{requirement}} | 🟠 | {{experience_id}} | 坦诚程度有限，补充最相关经历 |
+| {{requirement}} | 🔴 | — | 真 gap，见下节应对策略 |
+
+## 真 gap（🔴）应对策略
+
+### Gap 1：{{gap_item}}
+- **gap 类型**：可弥补 / 难弥补
+- **面试应对**：
+  > "这方面我目前还没有直接经验，但我已经 [具体学习行动]。有一段相关经历是 [最接近的经历]，让我相信能较快上手。"
+- **面试前可做的行动**：{{action_before_interview}}
+
+---
+
+# 第四章：我的优势
+
+> 候选人在这个岗位上相对突出的 3-5 个亮点，可在面试开场或"你有什么优势"类问题时主动展示。
+
+### 优势 1：{{strength_title}}
+{{strength_description}}
+**可关联的经历**：{{experience_id}}
+**可以说的一句话**：{{talking_point}}
+
+### 优势 2：{{strength_title}}
+{{strength_description}}
+**可关联的经历**：{{experience_id}}
+**可以说的一句话**：{{talking_point}}
+
+### 优势 3：{{strength_title}}
+{{strength_description}}
+**可关联的经历**：{{experience_id}}
+**可以说的一句话**：{{talking_point}}
+
+---
+
+# 第五章：短板与应对
+
+> 诚实列出 2-3 个可能被面试官发现的弱项，并给出应对策略。
+
+### 短板 1：{{weakness_title}}
+- **弱点表现**：{{weakness_description}}
+- **应对策略**：{{mitigation_strategy}}
+- **建议不主动提，但如果被问到**：{{response_if_asked}}
+
+### 短板 2：{{weakness_title}}
+- **弱点表现**：{{weakness_description}}
+- **应对策略**：{{mitigation_strategy}}
+- **建议不主动提，但如果被问到**：{{response_if_asked}}
+
+---
+
+# 第六章：面试问题预测
+
+> 共 {{question_count}} 题，L3 深度（问题 + 考察点 + 难度 + 应答策略 + 踩坑）
+
+---
+
+## Q1：{{question_text}}
+
+**来源**：{{question_source}}（JD直接派生 / 通用必问 / 经历深挖 / STAR行为 / 业务情境 / 动机）
+**考察点**：{{examination_point}}
+**难度**：{{difficulty}}（基础 / 进阶 / 资深）
+**question_id**：{{question_id}}
+**category**：{{category}}
+**target_experience_id**：{{target_experience_id}}
+
+**应答策略**：
+- 🎬 **建议用哪段经历**：{{experience_id}}
+  > 理由：{{reason}}
+- ✨ **重点突出**：
+  1. {{point_1}} —— 体现{{quality_1}}
+  2. {{point_2}} —— 体现{{quality_2}}
+  3. {{point_3}}（可选）
+- 🪝 **可埋钩子**：
+  - {{hook_sentence}}
+- 🎯 **面试官想看到的信号**：
+  - {{signal_1}}
+  - {{signal_2}}
+  - {{signal_3}}
+
+**常见踩坑**：
+- ❌ {{pitfall_1}}
+- ❌ {{pitfall_2}}
+
+---
+
+## Q2：{{question_text}}
+
+（重复以上结构...）
+
+---
+
+# 第七章：面试前 24 小时备战清单
+
+## 内容复习
+- [ ] 把自己的核心经历故事过一遍（重点：数据 + 决策点）
+- [ ] 确认每段经历能用 2 分钟讲清楚（背景→行动→结果）
+- [ ] 把 🔴 gap 的应对模板背熟
+
+## 公司研究
+- [ ] 研究 {{company_name}} 最近 3 个月的产品更新/新闻
+- [ ] 用一下他们的核心产品/服务，找到 1-2 个有意思的观察
+- [ ] 想好"你有什么想问我们的？"的 2-3 个问题
+
+## 逻辑复习（按岗位方向）
+{{24h_logic_checklist}}
+
+## 心理准备
+- [ ] 面试官的追问不是为了难倒你，而是想了解你的思维过程
+- [ ] 不知道的就说不知道，把方向说出来比硬撑更有说服力
+- [ ] 如果回答偏了，主动说"让我重新组织一下"
+
+---
+
+# 第八章：衔接模块 3（模拟面试官）
+
+> 本文件的问题列表已按模块 3 接口格式生成，字段说明：
+
+| 字段 | 说明 |
+|------|------|
+| question_id | 唯一问题编号，如 Q01 |
+| category | 题目类型（经历/认知/分析/情境/动机/压力） |
+| difficulty | 基础 / 进阶 / 资深 |
+| target_experience_id | 建议关联的经历档案 ID（来自 experiences/index.md） |
+
+**模块 3 安装后**，可以用以下方式调用本文件：
+```
+/mock-interview --battle-plan job-matches/{{company_name}}-{{job_title}}-{{date}}/battle-plan.md
+```
+
+---
+
+*本手册由 job-match-advisor v1.0 自动生成*
+*如有内容不准确，请提 Issue：https://github.com/hirclelili/job-match-advisor/issues*
