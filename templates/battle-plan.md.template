@@ -114,40 +114,31 @@
 
 # 第六章：面试问题预测
 
-> 共 {{question_count}} 题，L3 深度（问题 + 考察点 + 难度 + 应答策略 + 踩坑）
+> 共 {{question_count}} 题
 
 ---
 
-## Q1：{{question_text}}
+### Q1：{{question_text}}
 
-**来源**：{{question_source}}（JD直接派生 / 通用必问 / 经历深挖 / STAR行为 / 业务情境 / 动机）
 **考察点**：{{examination_point}}
-**难度**：{{difficulty}}（基础 / 进阶 / 资深）
-**question_id**：{{question_id}}
-**category**：{{category}}
-**target_experience_id**：{{target_experience_id}}
+**难度**：{{difficulty}}
 
-**应答策略**：
-- 🎬 **建议用哪段经历**：{{experience_id}}
-  > 理由：{{reason}}
-- ✨ **重点突出**：
-  1. {{point_1}} —— 体现{{quality_1}}
-  2. {{point_2}} —— 体现{{quality_2}}
-  3. {{point_3}}（可选）
-- 🪝 **可埋钩子**：
-  - {{hook_sentence}}
-- 🎯 **面试官想看到的信号**：
-  - {{signal_1}}
-  - {{signal_2}}
-  - {{signal_3}}
+**应答策略**：用 {{experience_id}} 回答，重点体现 {{quality_1}} 和 {{quality_2}}
 
-**常见踩坑**：
-- ❌ {{pitfall_1}}
-- ❌ {{pitfall_2}}
+🎯 **面试官想看到的信号**：
+· {{signal_1}}
+· {{signal_2}}
+
+❌ **常见踩坑**：
+· {{pitfall_1}}
+· {{pitfall_2}}
+
+💬 **回答示例**：
+"{{answer_example}}"
 
 ---
 
-## Q2：{{question_text}}
+### Q2：{{question_text}}
 
 （重复以上结构...）
 
@@ -158,7 +149,7 @@
 ## 内容复习
 - [ ] 把自己的核心经历故事过一遍（重点：数据 + 决策点）
 - [ ] 确认每段经历能用 2 分钟讲清楚（背景→行动→结果）
-- [ ] 把 🔴 gap 的应对模板背熟
+- [ ] 把 🔴 gap 的应对话术想好
 
 ## 公司研究
 - [ ] 研究 {{company_name}} 最近 3 个月的产品更新/新闻
@@ -177,21 +168,34 @@
 
 # 第八章：衔接模块 3（模拟面试官）
 
-> 本文件的问题列表已按模块 3 接口格式生成，字段说明：
-
-| 字段 | 说明 |
-|------|------|
-| question_id | 唯一问题编号，如 Q01 |
-| category | 题目类型（经历/认知/分析/情境/动机/压力） |
-| difficulty | 基础 / 进阶 / 资深 |
-| target_experience_id | 建议关联的经历档案 ID（来自 experiences/index.md） |
-
-**模块 3 安装后**，可以用以下方式调用本文件：
+模块 3 上线后，可以用这份手册直接加载问题库开始模拟练习：
 ```
-/mock-interview --battle-plan job-matches/{{company_name}}-{{job_title}}-{{date}}/battle-plan.md
+/mock-interview --battle-plan job-matches/{{company_name}}-{{job_title}}-{{date}}/battle-plan.docx
 ```
 
 ---
 
-*本手册由 job-match-advisor v1.0 自动生成*
+# 第九章：核心知识体系
+
+> 做好这个岗位需要理解的领域知识地图。和第六章的问答备战不同，这一章帮你建立认知框架。
+
+---
+
+## {{knowledge_system_1_title}}
+
+{{knowledge_system_1_definition}}
+
+{{knowledge_system_1_framework}}
+
+---
+
+## {{knowledge_system_2_title}}
+
+{{knowledge_system_2_definition}}
+
+{{knowledge_system_2_framework}}
+
+---
+
+*本手册由 job-match-advisor v1.1 自动生成*
 *如有内容不准确，请提 Issue：https://github.com/hirclelili/job-match-advisor/issues*
