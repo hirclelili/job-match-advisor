@@ -20,11 +20,9 @@
 | **核心知识体系** | 根据 JD 方向，给出 1-3 个**领域知识框架**（不是工具技能，是"做好这个岗位要理解什么"的认知地图） |
 | **面试前 24 小时清单** | 按岗位定制的备战 checklist |
 
-**只做"备课"，不做"上课"**——本模块是静态文档产出，不做模拟问答（那是[模块 3](https://github.com/hirclelili/mock-interviewer) 的工作）。
-
 ---
 
-## 与模块 1 的协同
+## 与简历经历助手的协同
 
 ```mermaid
 flowchart LR
@@ -279,7 +277,8 @@ job-matches/
 
 ## 反馈与贡献
 
-遇到问题或有改进建议，请提 [GitHub Issue](https://github.com/hirclelili/job-match-advisor/issues)。
+遇到问题或有改进建议，可以加群交流和反馈
+<img width="1020" height="1536" alt="d8b86aedeacf266b2d59e24420e4af90" src="https://github.com/user-attachments/assets/b2246aca-f2b0-448b-8f1f-9f527d581319" />
 
 特别欢迎：
 - 你用这个 Skill 生成的真实输出（可脱敏后分享）
